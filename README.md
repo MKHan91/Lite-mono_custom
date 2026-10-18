@@ -471,22 +471,6 @@ Lite-mono_custom/
 
 <a id="citation"></a>
 
-## 📝 인용
-
-이 저장소가 도움이 되었다면 아래 논문을 인용해 주세요.
-
-```bibtex
-@mastersthesis{lee2026realtime,
-  title   = {Real-Time Self-Supervised Monocular Depth Estimation via
-             Lightweight Modules and Enhanced Local Feature Representation},
-  author  = {Lee, Jae-young},
-  school  = {Dong-Eui University},
-  year    = {2026},
-  month   = feb,
-  type    = {Master's Thesis}
-}
-```
-
 <details>
 <summary><b>한국어 서지 정보</b></summary>
 
