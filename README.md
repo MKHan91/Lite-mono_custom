@@ -1,14 +1,12 @@
-<img width="1600" height="892" alt="fig3-5_restricted_random_crop" src="https://github.com/user-attachments/assets/784fdf79-6626-4ac9-9186-e47432d1ab13" /><img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/3f3b3d90-0bb1-47f3-8f2e-c67e6b074202" /><div align="center">
+<div align="center">
 
-# ⚡ Lite-Mono Custom
-
-### 경량 모듈과 국소 특징 표현 강화를 통한<br/>실시간 자가 지도 단안 깊이 추정
+# ⚡ 경량 모듈과 국소 특징 표현 강화를 통한<br/>실시간 자가 지도 단안 깊이 추정
 
 <sub><i>Real-Time Self-Supervised Monocular Depth Estimation<br/>via Lightweight Modules and Enhanced Local Feature Representation</i></sub>
 
 <br/>
   
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="TensorRT"/>
 <img src="https://img.shields.io/badge/Jetson_Orin_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"/>
@@ -150,10 +148,9 @@ Lite-Mono의 CDC 블록 중심 구성을 **StarNext + ADC** 중심으로 바꾸�
 <table>
   <tr>
     <td align="center" width="50%"><img width="900" height="1125" alt="fig3-3_starnext" src="https://github.com/user-attachments/assets/45799238-341f-4a04-8f9c-f0d962ae4c62" width="92%"/></td>
-    <!-- <td align="center" width="50%"><img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/f51ec11f-522e-4b57-b1ba-8b7a9b7668c3" width="92%"/></td> -->
+    <td align="center" width="50%"><img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/f51ec11f-522e-4b57-b1ba-8b7a9b7668c3" width="92%"/></td>
     <!-- <td align="center" width="50%"><img src="assets/fig3-3_starnext.png" alt="StarNext module" width="92%"/></td> -->
     <!-- <td align="center" width="50%"><img src="assets/fig3-4_adc.png" alt="ADC module" width="92%"/></td> -->
-    <!-- <img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/0dee1969-0528-4fde-b860-2eb27481a79e" /> -->
 
   </tr>
   <tr>
@@ -187,9 +184,10 @@ Lite-Mono의 CDC 블록 중심 구성을 **StarNext + ADC** 중심으로 바꾸�
 
 <table>
   <tr>
-    <td align="center" width="50%"><img alt="fig3-5_restricted_random_crop" src="https://github.com/user-attachments/assets/dadb13fc-7d19-4895-a1f7-12d6478ead64" width="50%"/><br/><sub><b>Restricted Random Crop</b></sub></td>
+    <td align="center" width="50%"><img alt="fig3-5_restricted_random_crop" src="https://github.com/user-attachments/assets/dadb13fc-7d19-4895-a1f7-12d6478ead64" width="95%"/><br/><sub><b>Restricted Random Crop</b></sub></td>
+    <td align="center" width="50%"><img width="1400" height="1156" alt="fig3-6_adaptive_cutout" src="https://github.com/user-attachments/assets/130be594-4070-42ad-9a85-aaa2477b2003" width="78%"/><br/><sub><b>Adaptive Cutout</b></sub></td>
     <!-- <td align="center" width="50%"><img src="assets/fig3-5_restricted_random_crop.jpg" alt="Restricted Random Crop" width="95%"/><br/><sub><b>Restricted Random Crop</b></sub></td> -->
-    <td align="center" width="50%"><img src="assets/fig3-6_adaptive_cutout.jpg" alt="Adaptive Cutout" width="78%"/><br/><sub><b>Adaptive Cutout</b></sub></td>
+    <!-- <td align="center" width="50%"><img src="assets/fig3-6_adaptive_cutout.jpg" alt="Adaptive Cutout" width="78%"/><br/><sub><b>Adaptive Cutout</b></sub></td> -->
   </tr>
 </table>
 
@@ -302,9 +300,13 @@ Lite-Mono의 CDC 블록 중심 구성을 **StarNext + ADC** 중심으로 바꾸�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="assets/fig4-1_directional.jpg"><img src="assets/fig4-1_directional.jpg" alt="Directional objects" width="100%"/></a></td>
+    <td align="center" width="33%"><img width="1000" height="1953" alt="fig4-1_directional" src="https://github.com/user-attachments/assets/eea46a31-ea93-4cde-b2eb-9f3ef376105a" width="100%"/></a></td>
+    <td align="center" width="33%"><img width="1000" height="1965" alt="fig4-2_near_object" src="https://github.com/user-attachments/assets/105fdfbc-1f93-4f91-a067-540df02564e6" width="100%"/></a></td>
+    <td align="center" width="33%"><img width="1000" height="1941" alt="fig4-3_overall_shape" src="https://github.com/user-attachments/assets/3494b6ef-35c7-4f80-ac44-dd7590693f84" width="100%"/></a></td>
+
+    <!-- <td align="center" width="33%"><a href="assets/fig4-1_directional.jpg"><img src="assets/fig4-1_directional.jpg" alt="Directional objects" width="100%"/></a></td>
     <td align="center" width="33%"><a href="assets/fig4-2_near_object.jpg"><img src="assets/fig4-2_near_object.jpg" alt="Near-range objects" width="100%"/></a></td>
-    <td align="center" width="33%"><a href="assets/fig4-3_overall_shape.jpg"><img src="assets/fig4-3_overall_shape.jpg" alt="Overall object shape" width="100%"/></a></td>
+    <td align="center" width="33%"><a href="assets/fig4-3_overall_shape.jpg"><img src="assets/fig4-3_overall_shape.jpg" alt="Overall object shape" width="100%"/></a></td> -->
   </tr>
   <tr>
     <td align="center"><b>방향성 물체</b><br/><sub>세로로 긴 표지판 · 삼각형 형태 · 표지판–나무 사이 공간 분리</sub></td>
