@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1600" height="892" alt="fig3-5_restricted_random_crop" src="https://github.com/user-attachments/assets/784fdf79-6626-4ac9-9186-e47432d1ab13" /><img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/3f3b3d90-0bb1-47f3-8f2e-c67e6b074202" /><div align="center">
 
 # ⚡ Lite-Mono Custom
 
@@ -7,8 +7,8 @@
 <sub><i>Real-Time Self-Supervised Monocular Depth Estimation<br/>via Lightweight Modules and Enhanced Local Feature Representation</i></sub>
 
 <br/>
-
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="TensorRT"/>
 <img src="https://img.shields.io/badge/Jetson_Orin_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"/>
@@ -28,7 +28,7 @@
 <br/>
 
 <p align="center">
-  <img src="assets/fig3-2_architecture.png" alt="Proposed network architecture" width="92%"/>
+  <img width="1600" height="941" alt="fig3-2_architecture" src="https://github.com/user-attachments/assets/6087c82b-64f7-4dff-a75f-bda7fe127d27" />
 </p>
 
 <p align="center"><sub><b>Figure 1.</b> 제안하는 단안 깊이 추정 네트워크 아키텍처 (StarNext + ADC + LGFI)</sub></p>
@@ -83,7 +83,7 @@ Lite-Mono는 대표적인 경량 모델이지만, **Jetson Orin Nano** 의 저�
 </div>
 
 <p align="center">
-  <img src="assets/latency_jetson.png" alt="Inference latency on Jetson Orin Nano" width="85%"/>
+  <img width="2000" height="1040" alt="latency_jetson" src="https://github.com/user-attachments/assets/4d8f5892-551b-4671-98eb-e2f6a8546751" />
 </p>
 
 - ✅ **모든 전력 모드**(MaxN Super · 25W · 15W · 7W)에서 추론 시간 약 **46–52 %** 단축
@@ -149,8 +149,12 @@ Lite-Mono의 CDC 블록 중심 구성을 **StarNext + ADC** 중심으로 바꾸�
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/fig3-3_starnext.png" alt="StarNext module" width="92%"/></td>
-    <td align="center" width="50%"><img src="assets/fig3-4_adc.png" alt="ADC module" width="92%"/></td>
+    <td align="center" width="50%"><img width="900" height="1125" alt="fig3-3_starnext" src="https://github.com/user-attachments/assets/45799238-341f-4a04-8f9c-f0d962ae4c62" width="92%"/></td>
+    <!-- <td align="center" width="50%"><img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/f51ec11f-522e-4b57-b1ba-8b7a9b7668c3" width="92%"/></td> -->
+    <!-- <td align="center" width="50%"><img src="assets/fig3-3_starnext.png" alt="StarNext module" width="92%"/></td> -->
+    <!-- <td align="center" width="50%"><img src="assets/fig3-4_adc.png" alt="ADC module" width="92%"/></td> -->
+    <!-- <img width="900" height="1204" alt="fig3-4_adc" src="https://github.com/user-attachments/assets/0dee1969-0528-4fde-b860-2eb27481a79e" /> -->
+
   </tr>
   <tr>
     <td valign="top">
@@ -183,7 +187,8 @@ Lite-Mono의 CDC 블록 중심 구성을 **StarNext + ADC** 중심으로 바꾸�
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/fig3-5_restricted_random_crop.jpg" alt="Restricted Random Crop" width="95%"/><br/><sub><b>Restricted Random Crop</b></sub></td>
+    <td align="center" width="50%"><img alt="fig3-5_restricted_random_crop" src="https://github.com/user-attachments/assets/dadb13fc-7d19-4895-a1f7-12d6478ead64" width="50%"/><br/><sub><b>Restricted Random Crop</b></sub></td>
+    <!-- <td align="center" width="50%"><img src="assets/fig3-5_restricted_random_crop.jpg" alt="Restricted Random Crop" width="95%"/><br/><sub><b>Restricted Random Crop</b></sub></td> -->
     <td align="center" width="50%"><img src="assets/fig3-6_adaptive_cutout.jpg" alt="Adaptive Cutout" width="78%"/><br/><sub><b>Adaptive Cutout</b></sub></td>
   </tr>
 </table>
