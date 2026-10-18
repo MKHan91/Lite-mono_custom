@@ -18,8 +18,7 @@
 [**핵심 결과**](#highlights) ·
 [**방법**](#method) ·
 [**실험 결과**](#results) ·
-[**시작하기**](#getting-started) ·
-[**인용**](#citation)
+[**시작하기**](#getting-started)
 
 </div>
 
